@@ -65,5 +65,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'test-rag5'
-          slot-name: 'Production'
+          slot-name:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3AEEC8187F6F470696DB402C2F44603B }}
